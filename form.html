@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey form</title>
 </head>
 <body>
     <form action="POST">
-        Username:<input type="text">
-        Email:<input type="Email">
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" required minlength="6"><br>
+
+        <label for="email">Email: </label>
+        <input type="Email" id="email" required >
         
-        <h3>How often do you use our product</h3>
+        <h3>How often do you use our product?</h3>
         <div class="radio">
             <input type="radio" name="" id="">A lot
             <input type="radio" name="" id="">Most of the time
@@ -39,9 +42,10 @@
             <h3>Please leave your feedback and comments.</h3>
             <textarea name="" id=""></textarea>
         </div>
-
         
+        <br><input type="submit">
+        
+
     </form>
 </body>
 </html>
-
