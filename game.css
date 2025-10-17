@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(143, 214, 190);
+}
+
+.game{
+
+    display: flex;
+    margin: auto;
+    width: 200px;
+    /* background-color: aliceblue; */
+    
+}
+
+.user{
+
+    margin: 5px;
+    font-size: 1.5rem;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background-color: rgb(192, 121, 192);
+
+}
+
+.user .UserName{
+
+    margin-left: 40px;
+}
+
+.select{
+
+    display: flex;
+
+}
+
+
+.comp{
+
+    margin: 5px;
+    font-size: 1.5rem;
+    padding: 30px  ;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgb(192, 121, 192);
+
+}
+
+.comp .computer{
+
+    margin-left: 0px;
+}
+
+.vs{
+
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.Score {
+
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+.hscore{
+
+    /* background-color: aliceblue; */
+    padding: 10px;
+    border-radius: 5px ;
+    margin: 5px;
+    
+}
+
+
+.cscore{
+
+    /* background-color: aqua; */
+    padding: 10px;
+    border-radius: 5px ;
+    margin: 5px;
+}
